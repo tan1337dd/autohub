@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Главная страница -->
   <url>
-    <loc>https://твой-ник.github.io/autohub-website/</loc>
+    <loc>https://tan1337dd.github.io/autohub-website/</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -10,7 +10,7 @@
   
   <!-- Каталог -->
   <url>
-    <loc>https://твой-ник.github.io/autohub-website/catalog.html</loc>
+    <loc>https://tan1337dd.github.io/autohub-website/catalog.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -18,7 +18,7 @@
   
   <!-- Детали автомобиля (Седан) -->
   <url>
-    <loc>https://твой-ник.github.io/autohub-website/car-details.html</loc>
+    <loc>https://tan1337dd.github.io/autohub-website/car-details.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -26,7 +26,7 @@
   
   <!-- Услуги -->
   <url>
-    <loc>https://твой-ник.github.io/autohub-website/services.html</loc>
+    <loc>https://tan1337dd.github.io/autohub-website/services.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -34,7 +34,7 @@
   
   <!-- Контакты -->
   <url>
-    <loc>https://твой-ник.github.io/autohub-website/contacts.html</loc>
+    <loc>https://tan1337dd.github.io/autohub-website/contacts.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
