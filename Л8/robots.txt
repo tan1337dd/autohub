@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Sitemap: https://tan1337dd.github.io/autohub-website/sitemap.xml
