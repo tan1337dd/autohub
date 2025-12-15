@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoHub – Седан Lux</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .car-detail {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        .car-image {
+            flex: 1;
+            min-width: 300px;
+        }
+        .car-image img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .car-specs {
+            flex: 1;
+            min-width: 300px;
+        }
+        .spec-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">AutoHub</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <a href="catalog.html" style="display:inline-block; margin:20px 0; color:#666;">
+            <i class="fas fa-arrow-left"></i> Назад в каталог
+        </a>
+        
+        <div class="car-detail">
+            <div class="car-image">
+                <img src="images/car1.jpg" alt="Седан Lux">
+            </div>
+            <div class="car-specs">
+                <h1>Седан Lux 2024</h1>
+                <p class="price" style="font-size: 1.8rem; color: #ff6b00; font-weight: bold; margin: 15px 0;">1 200 000 ₽</p>
+                
+                <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                    <p><strong>В наличии:</strong> 3 автомобиля</p>
+                    <p><strong>Срок доставки:</strong> 1-3 дня</p>
+                </div>
+
+                <h3>Характеристики</h3>
+                <div class="spec-grid">
+                    <div class="spec-item">
+                        <strong>Двигатель:</strong><br>2.0 л, 150 л.с.
+                    </div>
+                    <div class="spec-item">
+                        <strong>Коробка:</strong><br>Автоматическая
+                    </div>
+                    <div class="spec-item">
+                        <strong>Привод:</strong><br>Передний
+                    </div>
+                    <div class="spec-item">
+                        <strong>Расход:</strong><br>7.2 л/100км
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px;">Комплектация</h3>
+                <ul style="margin: 15px 0 25px 20px; color: #666;">
+                    <li>Кожаный салон</li>
+                    <li>Панорамная крыша</li>
+                    <li>Apple CarPlay / Android Auto</li>
+                    <li>Система помощи при парковке</li>
+                    <li>Адаптивный круиз-контроль</li>
+                </ul>
+
+                <button class="btn" style="padding: 15px 40px; font-size: 1.1rem;" id="orderBtn">
+                    <i class="fas fa-car"></i> Заказать тест-драйв
+                </button>
+                <p style="margin-top: 10px; color: #666; font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Мы перезвоним в течение 30 минут
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">AutoHub</h3>
+                    <p>Профессиональный подбор автомобилей</p>
+                </div>
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">Консультация</h3>
+                    <p>Ежедневно 9:00 - 21:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span class="year"></span> AutoHub. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

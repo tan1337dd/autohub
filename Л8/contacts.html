@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoHub – Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">AutoHub</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contacts.html" style="color:#ff6b00;">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 style="text-align:center; margin:40px 0 20px;">Наши контакты</h1>
+        <p style="text-align:center; max-width:600px; margin:0 auto 40px; color:#666;">
+            Свяжитесь с нами удобным для вас способом. Мы всегда рады помочь!
+        </p>
+
+        <div class="contacts-grid">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Адрес</h3>
+                <p>г. Москва, ул. Автозаводская, д. 10</p>
+                <p style="color:#888; margin-top:10px;">Ежедневно 9:00 - 21:00</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <h3>Телефон</h3>
+                <p><strong>+7 (999) 123-45-67</strong></p>
+                <p style="margin-top:15px;">
+                    <a href="tel:+79991234567" class="btn" style="padding:10px 25px;">
+                        <i class="fas fa-phone-alt"></i> Позвонить
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <p>info@autohub.ru</p>
+                <p style="margin-top:15px;">
+                    <a href="mailto:info@autohub.ru" class="btn" style="padding:10px 25px;">
+                        <i class="fas fa-paper-plane"></i> Написать
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Карта (заглушка) -->
+        <div style="margin-top:60px; background:#f9f9f9; border-radius:15px; padding:30px; text-align:center;">
+            <h3>Как добраться</h3>
+            <div style="height:300px; background:#ddd; border-radius:10px; margin-top:20px; 
+                        display:flex; align-items:center; justify-content:center; color:#666;">
+                <i class="fas fa-map" style="font-size:3rem; margin-right:15px;"></i>
+                <span>Здесь будет интерактивная карта</span>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">AutoHub</h3>
+                    <p>Лучшие автомобили с гарантией качества</p>
+                </div>
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">Быстрые ссылки</h3>
+                    <p><a href="catalog.html" style="color:#ccc;">Каталог</a></p>
+                    <p><a href="services.html" style="color:#ccc;">Услуги</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="currentYear" class="year"></span> AutoHub. Все права защищены.</p>
+                <p style="margin-top:5px; font-size:0.8rem;">Телефон: +7 (999) 123-45-67</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

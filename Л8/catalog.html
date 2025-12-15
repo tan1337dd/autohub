@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoHub – Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">AutoHub</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html" style="color:#ff6b00;">Каталог</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 style="margin:40px 0 20px;">Каталог автомобилей</h1>
+        <p style="color:#666; margin-bottom:40px; max-width:800px;">Выберите автомобиль своей мечты. Все автомобили проходят предпродажную подготовку и имеют гарантию.</p>
+
+        <div class="cars-grid" style="grid-template-columns: 1fr; gap: 40px;">
+            <!-- СЕДАН (есть страница car-details.html) -->
+            <div class="car-card-large">
+                <div class="car-image-container">
+                    <img src="images/car1.jpg" alt="Седан Lux">
+                </div>
+                <div class="car-info-large">
+                    <h2>Седан Lux 2024</h2>
+                    <p style="font-size: 1.3rem; color: #ff6b00; font-weight: bold;">от 1 200 000 ₽</p>
+                    <p>Премиальный седан с полным пакетом опций. Автоматическая коробка, кожаный салон, панорамная крыша.</p>
+                    <div style="display: flex; gap: 15px; margin-top: auto; flex-wrap: wrap;">
+                        <a href="car-details.html" class="btn">Подробнее</a>
+                        <a href="contacts.html" class="btn-secondary">Тест-драйв</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ВНЕДОРОЖНИК (НЕТ отдельной страницы) -->
+            <div class="car-card-large">
+                <div class="car-image-container">
+                    <img src="images/car2.jpg" alt="Внедорожник Pro">
+                </div>
+                <div class="car-info-large">
+                    <h2>Внедорожник Pro 2024</h2>
+                    <p style="font-size: 1.3rem; color: #ff6b00; font-weight: bold;">от 2 500 000 ₽</p>
+                    <p>Мощный внедорожник для любых дорог. Полный привод, 7 мест, система помощи при бездорожье.</p>
+                    <div style="display: flex; gap: 15px; margin-top: auto; flex-wrap: wrap;">
+                        <a href="contacts.html" class="btn-secondary">Запросить информацию</a>
+                        <a href="contacts.html" class="btn">Тест-драйв</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ХЭТЧБЕК (НЕТ отдельной страницы) -->
+            <div class="car-card-large">
+                <div class="car-image-container">
+                    <img src="images/car3.jpg" alt="Хэтчбек City">
+                </div>
+                <div class="car-info-large">
+                    <h2>Хэтчбек City 2024</h2>
+                    <p style="font-size: 1.3rem; color: #ff6b00; font-weight: bold;">от 900 000 ₽</p>
+                    <p>Экономичный и маневренный городской автомобиль. Низкий расход, современная мультимедиа система.</p>
+                    <div style="display: flex; gap: 15px; margin-top: auto; flex-wrap: wrap;">
+                        <a href="contacts.html" class="btn-secondary">Запросить информацию</a>
+                        <a href="contacts.html" class="btn">Тест-драйв</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">AutoHub</h3>
+                    <p>Ваш надёжный партнёр в мире автомобилей</p>
+                </div>
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">Каталог</h3>
+                    <p><a href="catalog.html" style="color:#ccc;">Седаны</a></p>
+                    <p><a href="catalog.html" style="color:#ccc;">Внедорожники</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span class="year"></span> AutoHub. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

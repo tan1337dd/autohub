@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoHub – Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">AutoHub</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" style="color:#ff6b00;">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Герой-секция -->
+        <section class="hero-section">
+            <div class="container">
+                <h1>Найдите свой идеальный автомобиль</h1>
+                <p>Более 100 моделей в наличии. Гарантия лучшей цены. Тест-драйв в день обращения.</p>
+                <a href="catalog.html" class="btn" style="padding: 15px 40px; font-size: 1.1rem;">
+                    Смотреть каталог
+                </a>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Популярные модели -->
+            <section style="margin: 60px 0;">
+                <h2 style="text-align:center; margin-bottom:40px; font-size:2rem;">Популярные модели</h2>
+                
+                <div class="cars-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px;">
+                    <!-- СЕДАН (есть страница) -->
+                    <div class="car-card-large">
+                        <div class="car-image-container">
+                            <img src="images/car1.jpg" alt="Седан">
+                        </div>
+                        <div class="car-info-large">
+                            <h3>Седан Premium 2024</h3>
+                            <p style="color: #ff6b00; font-weight: bold;">от 1 200 000 ₽</p>
+                            <p>Идеальный выбор для бизнеса и семьи. Максимальный комфорт и технологии.</p>
+                            <a href="car-details.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <!-- ВНЕДОРОЖНИК (НЕТ страницы) -->
+                    <div class="car-card-large">
+                        <div class="car-image-container">
+                            <img src="images/car2.jpg" alt="Внедорожник">
+                        </div>
+                        <div class="car-info-large">
+                            <h3>Внедорожник Offroad</h3>
+                            <p style="color: #ff6b00; font-weight: bold;">от 2 500 000 ₽</p>
+                            <p>Покорите любые дороги. Мощность, надёжность и современные системы безопасности.</p>
+                            <a href="contacts.html" class="btn-secondary">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Преимущества -->
+            <section style="margin: 80px 0;">
+                <h2 style="text-align:center; margin-bottom:40px;">Почему выбирают нас</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+                    <div style="text-align:center; padding: 25px;">
+                        <div style="font-size:2.5rem; color:#ff6b00; margin-bottom:15px;">✓</div>
+                        <h3>Гарантия 3 года</h3>
+                        <p>Расширенная гарантия на все автомобили</p>
+                    </div>
+                    <div style="text-align:center; padding: 25px;">
+                        <div style="font-size:2.5rem; color:#ff6b00; margin-bottom:15px;"><i class="fas fa-car"></i></div>
+                        <h3>Тест-драйв 24/7</h3>
+                        <p>Запишитесь на тест-драйв в любое время</p>
+                    </div>
+                    <div style="text-align:center; padding: 25px;">
+                        <div style="font-size:2.5rem; color:#ff6b00; margin-bottom:15px;"><i class="fas fa-credit-card"></i></div>
+                        <h3>Выгодный кредит</h3>
+                        <p>Ставка от 3.9% с быстрым одобрением</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">AutoHub</h3>
+                    <p>Лучшие автомобили с гарантией качества</p>
+                </div>
+                <div>
+                    <h3 style="color:white; margin-bottom:15px;">Быстрые ссылки</h3>
+                    <p><a href="catalog.html" style="color:#ccc;">Каталог</a></p>
+                    <p><a href="services.html" style="color:#ccc;">Услуги</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="currentYear" class="year"></span> AutoHub. Все права защищены.</p>
+                <p style="margin-top:5px; font-size:0.8rem;">Телефон: +7 (999) 123-45-67</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
